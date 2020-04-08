@@ -3,6 +3,7 @@
 #include<string>
 #include<set>
 using namespace std;
+#define reverse(a) reverse(a.begin(),a.end())
 #define len(a) a.size();
 /*
 
@@ -18,9 +19,18 @@ int main(){
 }
 */
 
+
 int main(){
+
+    //Set erase can be used to remove all the instances of an element
+    //
     set<int> s={1,2,3,4,5};
     set<int> s2={3,6,9,12};
+    //Auto detects the datatype on its own without explicitly 
+    //declaring
+    for(auto i=s.begin();i!=s.end();i++){
+        cout << *i  ;
+    }
     cout << s.size();
     return 0;
 }
