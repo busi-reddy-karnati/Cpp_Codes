@@ -14,4 +14,8 @@ int main(){
     q.push(2);
     q.pop();
     cout <<"front "<<q.front();
+    //This is a normal Queue. THere is something called as
+    //Priority queue
+    //Priority Queue is Like a heap implementation
+    return 0;
 }
