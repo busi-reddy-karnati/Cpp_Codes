@@ -8,6 +8,12 @@ fixed number
 given[1,2,3] if asked for 4 we need to return [1,3]
 
 Give a coin denominations to satisify the total
+
+There is no proof that greedy Algorithm will work always
+An example where it doesn't work is in the cae of [1,3,4] 
+and we want 6 This Algo gives 4+1+1 Although the result is 
+3+3
+So We will look at other ways of solving this
 */
 
 #include<iostream>
@@ -25,7 +31,7 @@ int main(){
         coincount+=k;
         n-=k*coins[i];
         cout << k <<" Notes of " << coins[i] <<" Denominations\n";
-    }
+    }cout<<coincount;                   
     return 0;
 
 
