@@ -15,6 +15,8 @@ int main(){
     prev_permutation(a.begin(),a.end());
     cout<<"\nPrevious Permutation";
     print(a);
+    reverse(a.begin(),a.end());
     return 0;
+
 
 }
