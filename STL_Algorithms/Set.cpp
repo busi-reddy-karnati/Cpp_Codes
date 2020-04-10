@@ -15,6 +15,8 @@ int main(){
     print(res);
     cout <<"\n";
     set_union(s1.begin(),s1.end(),s2.begin(),s2.end(),res);
+
+    //Remove in a collection to take out all the instances
     print(res);
     cout <<"\n";
     return 0;
